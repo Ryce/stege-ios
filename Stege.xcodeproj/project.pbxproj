@@ -13,6 +13,11 @@
 		DA007C751B64314300BF9E76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA007C741B64314300BF9E76 /* Images.xcassets */; };
 		DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA007C761B64314300BF9E76 /* LaunchScreen.xib */; };
 		DA007C841B64314300BF9E76 /* StegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C831B64314300BF9E76 /* StegeTests.swift */; };
+		DA007C8F1B64327700BF9E76 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C8E1B64327700BF9E76 /* 1.mp3 */; };
+		DA007C941B64331D00BF9E76 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C901B64331D00BF9E76 /* 2.mp3 */; };
+		DA007C951B64331D00BF9E76 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C911B64331D00BF9E76 /* 3.mp3 */; };
+		DA007C961B64331D00BF9E76 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C921B64331D00BF9E76 /* 4.mp3 */; };
+		DA007C971B64331D00BF9E76 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C931B64331D00BF9E76 /* 0.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		DA007C7D1B64314300BF9E76 /* StegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA007C821B64314300BF9E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA007C831B64314300BF9E76 /* StegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StegeTests.swift; sourceTree = "<group>"; };
+		DA007C8E1B64327700BF9E76 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		DA007C901B64331D00BF9E76 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		DA007C911B64331D00BF9E76 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		DA007C921B64331D00BF9E76 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		DA007C931B64331D00BF9E76 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 				DA007C711B64314300BF9E76 /* Main.storyboard */,
 				DA007C741B64314300BF9E76 /* Images.xcassets */,
 				DA007C761B64314300BF9E76 /* LaunchScreen.xib */,
+				DA007C8D1B64326500BF9E76 /* Assets */,
 				DA007C6B1B64314300BF9E76 /* Supporting Files */,
 			);
 			path = Stege;
@@ -110,6 +121,18 @@
 				DA007C821B64314300BF9E76 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA007C8D1B64326500BF9E76 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C931B64331D00BF9E76 /* 0.mp3 */,
+				DA007C8E1B64327700BF9E76 /* 1.mp3 */,
+				DA007C901B64331D00BF9E76 /* 2.mp3 */,
+				DA007C911B64331D00BF9E76 /* 3.mp3 */,
+				DA007C921B64331D00BF9E76 /* 4.mp3 */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA007C961B64331D00BF9E76 /* 4.mp3 in Resources */,
+				DA007C941B64331D00BF9E76 /* 2.mp3 in Resources */,
+				DA007C951B64331D00BF9E76 /* 3.mp3 in Resources */,
 				DA007C731B64314300BF9E76 /* Main.storyboard in Resources */,
+				DA007C8F1B64327700BF9E76 /* 1.mp3 in Resources */,
+				DA007C971B64331D00BF9E76 /* 0.mp3 in Resources */,
 				DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */,
 				DA007C751B64314300BF9E76 /* Images.xcassets in Resources */,
 			);
@@ -409,6 +437,7 @@
 				DA007C891B64314300BF9E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA007C8A1B64314300BF9E76 /* Build configuration list for PBXNativeTarget "StegeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				DA007C8C1B64314300BF9E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
