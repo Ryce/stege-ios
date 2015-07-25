@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA007C6E1B64314300BF9E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C6D1B64314300BF9E76 /* AppDelegate.swift */; };
+		DA007C701B64314300BF9E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C6F1B64314300BF9E76 /* ViewController.swift */; };
+		DA007C731B64314300BF9E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA007C711B64314300BF9E76 /* Main.storyboard */; };
+		DA007C751B64314300BF9E76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA007C741B64314300BF9E76 /* Images.xcassets */; };
+		DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA007C761B64314300BF9E76 /* LaunchScreen.xib */; };
+		DA007C841B64314300BF9E76 /* StegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C831B64314300BF9E76 /* StegeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA007C7E1B64314300BF9E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA007C601B64314300BF9E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA007C671B64314300BF9E76;
+			remoteInfo = Stege;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA007C681B64314300BF9E76 /* Stege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stege.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA007C6C1B64314300BF9E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA007C6D1B64314300BF9E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA007C6F1B64314300BF9E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA007C721B64314300BF9E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA007C741B64314300BF9E76 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA007C771B64314300BF9E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA007C7D1B64314300BF9E76 /* StegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA007C821B64314300BF9E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA007C831B64314300BF9E76 /* StegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StegeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA007C651B64314300BF9E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA007C7A1B64314300BF9E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA007C5F1B64314300BF9E76 = {
+			isa = PBXGroup;
+			children = (
+				DA007C6A1B64314300BF9E76 /* Stege */,
+				DA007C801B64314300BF9E76 /* StegeTests */,
+				DA007C691B64314300BF9E76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA007C691B64314300BF9E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C681B64314300BF9E76 /* Stege.app */,
+				DA007C7D1B64314300BF9E76 /* StegeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA007C6A1B64314300BF9E76 /* Stege */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C6D1B64314300BF9E76 /* AppDelegate.swift */,
+				DA007C6F1B64314300BF9E76 /* ViewController.swift */,
+				DA007C711B64314300BF9E76 /* Main.storyboard */,
+				DA007C741B64314300BF9E76 /* Images.xcassets */,
+				DA007C761B64314300BF9E76 /* LaunchScreen.xib */,
+				DA007C6B1B64314300BF9E76 /* Supporting Files */,
+			);
+			path = Stege;
+			sourceTree = "<group>";
+		};
+		DA007C6B1B64314300BF9E76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C6C1B64314300BF9E76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA007C801B64314300BF9E76 /* StegeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C831B64314300BF9E76 /* StegeTests.swift */,
+				DA007C811B64314300BF9E76 /* Supporting Files */,
+			);
+			path = StegeTests;
+			sourceTree = "<group>";
+		};
+		DA007C811B64314300BF9E76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA007C821B64314300BF9E76 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA007C671B64314300BF9E76 /* Stege */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA007C871B64314300BF9E76 /* Build configuration list for PBXNativeTarget "Stege" */;
+			buildPhases = (
+				DA007C641B64314300BF9E76 /* Sources */,
+				DA007C651B64314300BF9E76 /* Frameworks */,
+				DA007C661B64314300BF9E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stege;
+			productName = Stege;
+			productReference = DA007C681B64314300BF9E76 /* Stege.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA007C7C1B64314300BF9E76 /* StegeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA007C8A1B64314300BF9E76 /* Build configuration list for PBXNativeTarget "StegeTests" */;
+			buildPhases = (
+				DA007C791B64314300BF9E76 /* Sources */,
+				DA007C7A1B64314300BF9E76 /* Frameworks */,
+				DA007C7B1B64314300BF9E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA007C7F1B64314300BF9E76 /* PBXTargetDependency */,
+			);
+			name = StegeTests;
+			productName = StegeTests;
+			productReference = DA007C7D1B64314300BF9E76 /* StegeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA007C601B64314300BF9E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ryce;
+				TargetAttributes = {
+					DA007C671B64314300BF9E76 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DA007C7C1B64314300BF9E76 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DA007C671B64314300BF9E76;
+					};
+				};
+			};
+			buildConfigurationList = DA007C631B64314300BF9E76 /* Build configuration list for PBXProject "Stege" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA007C5F1B64314300BF9E76;
+			productRefGroup = DA007C691B64314300BF9E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA007C671B64314300BF9E76 /* Stege */,
+				DA007C7C1B64314300BF9E76 /* StegeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA007C661B64314300BF9E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA007C731B64314300BF9E76 /* Main.storyboard in Resources */,
+				DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */,
+				DA007C751B64314300BF9E76 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA007C7B1B64314300BF9E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA007C641B64314300BF9E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA007C701B64314300BF9E76 /* ViewController.swift in Sources */,
+				DA007C6E1B64314300BF9E76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA007C791B64314300BF9E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA007C841B64314300BF9E76 /* StegeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA007C7F1B64314300BF9E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA007C671B64314300BF9E76 /* Stege */;
+			targetProxy = DA007C7E1B64314300BF9E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA007C711B64314300BF9E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA007C721B64314300BF9E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA007C761B64314300BF9E76 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA007C771B64314300BF9E76 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA007C851B64314300BF9E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA007C861B64314300BF9E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA007C881B64314300BF9E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA007C891B64314300BF9E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Stege/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA007C8B1B64314300BF9E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stege.app/Stege";
+			};
+			name = Debug;
+		};
+		DA007C8C1B64314300BF9E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StegeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stege.app/Stege";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA007C631B64314300BF9E76 /* Build configuration list for PBXProject "Stege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA007C851B64314300BF9E76 /* Debug */,
+				DA007C861B64314300BF9E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA007C871B64314300BF9E76 /* Build configuration list for PBXNativeTarget "Stege" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA007C881B64314300BF9E76 /* Debug */,
+				DA007C891B64314300BF9E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA007C8A1B64314300BF9E76 /* Build configuration list for PBXNativeTarget "StegeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA007C8B1B64314300BF9E76 /* Debug */,
+				DA007C8C1B64314300BF9E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA007C601B64314300BF9E76 /* Project object */;
+}
