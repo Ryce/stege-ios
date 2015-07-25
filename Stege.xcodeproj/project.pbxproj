@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54952C732A71871CE521EF46 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301AF40AD56C4A5EAFFC687F /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DA007C6E1B64314300BF9E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C6D1B64314300BF9E76 /* AppDelegate.swift */; };
 		DA007C701B64314300BF9E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C6F1B64314300BF9E76 /* ViewController.swift */; };
 		DA007C731B64314300BF9E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA007C711B64314300BF9E76 /* Main.storyboard */; };
 		DA007C751B64314300BF9E76 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA007C741B64314300BF9E76 /* Images.xcassets */; };
 		DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA007C761B64314300BF9E76 /* LaunchScreen.xib */; };
 		DA007C841B64314300BF9E76 /* StegeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA007C831B64314300BF9E76 /* StegeTests.swift */; };
-		DA007C8F1B64327700BF9E76 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C8E1B64327700BF9E76 /* 1.mp3 */; };
-		DA007C941B64331D00BF9E76 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C901B64331D00BF9E76 /* 2.mp3 */; };
-		DA007C951B64331D00BF9E76 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C911B64331D00BF9E76 /* 3.mp3 */; };
-		DA007C961B64331D00BF9E76 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C921B64331D00BF9E76 /* 4.mp3 */; };
-		DA007C971B64331D00BF9E76 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA007C931B64331D00BF9E76 /* 0.mp3 */; };
+		DA007C9B1B64400100BF9E76 /* 0.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA007C9A1B64400100BF9E76 /* 0.m4a */; };
+		DA007C9D1B64404800BF9E76 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA007C9C1B64404800BF9E76 /* 1.m4a */; };
+		DA007C9F1B6440B300BF9E76 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA007C9E1B6440B300BF9E76 /* 3.m4a */; };
+		DA007CA11B6440BD00BF9E76 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA007CA01B6440BD00BF9E76 /* 2.m4a */; };
+		DA007CA31B6440C200BF9E76 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = DA007CA21B6440C200BF9E76 /* 4.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		301AF40AD56C4A5EAFFC687F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41D3EF06FD92325266C9B51 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DA007C681B64314300BF9E76 /* Stege.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stege.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA007C6C1B64314300BF9E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA007C6D1B64314300BF9E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +44,12 @@
 		DA007C7D1B64314300BF9E76 /* StegeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StegeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA007C821B64314300BF9E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA007C831B64314300BF9E76 /* StegeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StegeTests.swift; sourceTree = "<group>"; };
-		DA007C8E1B64327700BF9E76 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
-		DA007C901B64331D00BF9E76 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
-		DA007C911B64331D00BF9E76 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
-		DA007C921B64331D00BF9E76 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
-		DA007C931B64331D00BF9E76 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		DA007C9A1B64400100BF9E76 /* 0.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 0.m4a; sourceTree = "<group>"; };
+		DA007C9C1B64404800BF9E76 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		DA007C9E1B6440B300BF9E76 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		DA007CA01B6440BD00BF9E76 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		DA007CA21B6440C200BF9E76 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		FF39A5F078FD162EA39CF273 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54952C732A71871CE521EF46 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +71,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B050CB8E5441973572653693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301AF40AD56C4A5EAFFC687F /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DA007C5F1B64314300BF9E76 = {
 			isa = PBXGroup;
 			children = (
 				DA007C6A1B64314300BF9E76 /* Stege */,
 				DA007C801B64314300BF9E76 /* StegeTests */,
 				DA007C691B64314300BF9E76 /* Products */,
+				E629236E3A001BB81AE0E68F /* Pods */,
+				B050CB8E5441973572653693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,13 +141,22 @@
 		DA007C8D1B64326500BF9E76 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DA007C931B64331D00BF9E76 /* 0.mp3 */,
-				DA007C8E1B64327700BF9E76 /* 1.mp3 */,
-				DA007C901B64331D00BF9E76 /* 2.mp3 */,
-				DA007C911B64331D00BF9E76 /* 3.mp3 */,
-				DA007C921B64331D00BF9E76 /* 4.mp3 */,
+				DA007C9A1B64400100BF9E76 /* 0.m4a */,
+				DA007C9C1B64404800BF9E76 /* 1.m4a */,
+				DA007CA01B6440BD00BF9E76 /* 2.m4a */,
+				DA007C9E1B6440B300BF9E76 /* 3.m4a */,
+				DA007CA21B6440C200BF9E76 /* 4.m4a */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		E629236E3A001BB81AE0E68F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF39A5F078FD162EA39CF273 /* Pods.debug.xcconfig */,
+				D41D3EF06FD92325266C9B51 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA007C871B64314300BF9E76 /* Build configuration list for PBXNativeTarget "Stege" */;
 			buildPhases = (
+				D4A08D55739048E7C0498011 /* Check Pods Manifest.lock */,
 				DA007C641B64314300BF9E76 /* Sources */,
 				DA007C651B64314300BF9E76 /* Frameworks */,
 				DA007C661B64314300BF9E76 /* Resources */,
+				364E2AE9B4A941A79B3D507B /* Embed Pods Frameworks */,
+				7E62B1EC04150C0519E8ACAF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,12 +242,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA007C961B64331D00BF9E76 /* 4.mp3 in Resources */,
-				DA007C941B64331D00BF9E76 /* 2.mp3 in Resources */,
-				DA007C951B64331D00BF9E76 /* 3.mp3 in Resources */,
+				DA007C9F1B6440B300BF9E76 /* 3.m4a in Resources */,
+				DA007C9B1B64400100BF9E76 /* 0.m4a in Resources */,
+				DA007CA31B6440C200BF9E76 /* 4.m4a in Resources */,
+				DA007CA11B6440BD00BF9E76 /* 2.m4a in Resources */,
+				DA007C9D1B64404800BF9E76 /* 1.m4a in Resources */,
 				DA007C731B64314300BF9E76 /* Main.storyboard in Resources */,
-				DA007C8F1B64327700BF9E76 /* 1.mp3 in Resources */,
-				DA007C971B64331D00BF9E76 /* 0.mp3 in Resources */,
 				DA007C781B64314300BF9E76 /* LaunchScreen.xib in Resources */,
 				DA007C751B64314300BF9E76 /* Images.xcassets in Resources */,
 			);
@@ -234,6 +261,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		364E2AE9B4A941A79B3D507B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E62B1EC04150C0519E8ACAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A08D55739048E7C0498011 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA007C641B64314300BF9E76 /* Sources */ = {
@@ -366,6 +441,7 @@
 		};
 		DA007C881B64314300BF9E76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39A5F078FD162EA39CF273 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stege/Info.plist;
@@ -376,6 +452,7 @@
 		};
 		DA007C891B64314300BF9E76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41D3EF06FD92325266C9B51 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Stege/Info.plist;
