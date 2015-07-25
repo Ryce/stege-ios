@@ -30,10 +30,13 @@ class ViewController: UIViewController {
     }
     
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
+        // play random audio
         let number = Int(rand()) % 5
         let url = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(String(number), ofType: "m4a")!)
         self.audioPlayer = AVAudioPlayer(contentsOfURL: url, error: nil)
         self.audioPlayer.play()
+        
+        // wiggle image
         UIView.animateAndChainWithDuration(0.25, delay: 0.0, options: .CurveEaseOut, animations: {
             self.stegeImage.transform = CGAffineTransformMakeScale(0.8, 0.8)
             }, completion: nil).animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.33, initialSpringVelocity: 0.0, options: nil, animations: {
